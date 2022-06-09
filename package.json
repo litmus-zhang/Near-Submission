@@ -1,0 +1,12 @@
+{
+  "name": "near-marketplace-contract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "yarn asb && near deploy --accountId=dev.litmus.testnet --wasmFile=build/release/near-marketplace-contract.wasm"
+  },
+  "devDependencies": {
+    "near-sdk-as": "^3.2.3"
+  }
+}
